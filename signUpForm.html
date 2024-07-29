@@ -13,38 +13,42 @@
             <img src="/images/odin-lined.png" alt="An image of furn leaves"> ODIN  
         </div>
     </header>   
+    
+    <form>
+        <p>Let's do this!</p>
+        <div>
+            <label for="userFirstName">First Name</label>
+            <input type="text" name="firstname" id="userFirstName" required>
+        </div>
+        <div>
+            <label for="userLastName">Last Name</label>
+            <input type="text" name="lastName" id="userLastName" required>
+        </div>
+        <div>
+                <label for="userMail">Email</label>
+                <input type="text" name="email" id="userMail" required>
+        </div>
+        <div>
+                <label for="phoneNum">Phone Number</label>
+                <input type="tel" name="phone-number" id="phoneNum">
+        </div>
+        <div>
+                <label for="pwd">Password</label>
+                <input type="password" name="password" id="pwd">
+        </div>
+        <div>
+                <label for="pwd">Confirm Password</label>
+                <input type="password" name="password" id="pwd">
+        </div>
+
+        <button type="submit">Create Account</button>
+        <div>Already have an account? <a href="#">Log In!</a></div>
+    </form>
 
     <div class="text-section">
         <p>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. <br>
         Sign up <i>now</i> to get started.<br></p>
         <br>You know you want to.
     </div>
-
-    <form>
-        <p>Lets do this!</p>
-        <ul>
-            <li>
-                <label for="userFirstName">First Name</label>
-                <input type="text" name="firstname" id="userFirstName" required>
-
-                <label for="userLastName">Last Name</label>
-                <input type="text" name="lastName" id="userLastName" required>
-            </li>
-            <li>
-                <label for="userMail">Email</label>
-                <input type="text" name="email" id="userMail" required>
-
-                <label for="phoneNum"></label>
-                <input type="text" name="phone-number" id="phoneNum">
-            </li>
-            <li>
-                <label for="pwd"></label>
-                <input type="text" name="password" id="pwd">
-            </li>
-        </ul>
-
-        <button type="submit">Create Account</button>
-        <div>Already have an account? <a href="#">Log In!</a></div>
-    </form>
 </body>
 </html>
