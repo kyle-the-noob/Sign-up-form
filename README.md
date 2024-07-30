@@ -1,0 +1,1 @@
+Badly made sign up form made under the guidance of The Odin Project. I used all of the knowledged that I had learned about forms the reason that it is bad is because I formated the html really badly and I don't want to fix it.
