@@ -102,3 +102,16 @@ input {
     font-size: 1.2rem;
     outline: none;
 }
+
+input:hover {
+    border-color: green;
+}
+
+input:focus {
+    background-color:rgb(229, 231, 235);
+    box-shadow: 1px 1px 2px;
+}
+
+input[type="password"]:invalid {
+    border-color: rgb(212, 37, 11, 0.6);
+}
